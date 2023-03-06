@@ -1,5 +1,3 @@
-console.log('CSS Alphabet')
-
 const a = document.getElementById('a'),
     b = document.getElementById('b'),
     c = document.getElementById('c'),
