@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
-    margin:0em;
-    font-size:0.5em;
+    font-size: 0.5em;
 }
 
 div{
@@ -9,11 +14,11 @@ div{
 }
 
 .letter {
-    height:20em;
-    width:32em;
-    display:inline-block;
-    margin:1em;
-    position:relative;
+    height: 20em;
+    width: 32em;
+    display: inline-block;
+    margin: 1em;
+    position: relative;
 }
 
 .white{
@@ -33,49 +38,586 @@ div{
 
 /* A */
 
-    #aTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 28em;
-        border-radius: 2em;
-        top: 2em;
-        left:2em;
-    }
+#aTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 28em;
+    border-radius: 2em;
+    top: 2em;
+    left:2em;
+}
 
-    #aBottomCounter{
-        position: absolute;
-        height:11em;
-        width: 28em;
-        border-radius: 2em;
-        top: 10em;
-        left:2em;
-    }
+#aBottomCounter{
+    position: absolute;
+    height:11em;
+    width: 28em;
+    border-radius: 2em;
+    top: 10em;
+    left:2em;
+}
 
-    #aRightBlackBar{
-        position: absolute;
-        height: 2em;
-        width: 3em;
-        top:19em;
-        left: 0em;
-    }
-    #aLeftBlackBar{
-        position: absolute;
-        height: 2em;
-        width: 3em;
-        top:19em;
-        left: 29em;
-    }
+#aRightBlackBar{
+    position: absolute;
+    height: 2em;
+    width: 3em;
+    top:19em;
+    left: 0em;
+}
+#aLeftBlackBar{
+    position: absolute;
+    height: 2em;
+    width: 3em;
+    top:19em;
+    left: 29em;
+}
 
-    #aLeftCap{
+#aLeftCap{
+position: absolute;
+height: 5em;
+width: 2em;
+border-radius: 2em;    
+top:15em;
+left: 0em;
+}
+
+#aRightCap{
+position: absolute;
+height: 5em;
+width: 2em;
+border-radius: 2em;   
+top:15em; 
+left: 30em;
+}
+
+/* B */
+
+#bRightBlackBar{
+    position: absolute;
+    height: 10em;
+    width: 3em;
+    top:5em;
+    left: 30em;
+}
+
+#bTopWhiteBar{
+    position: absolute;
+    height: 7em;
+    width: 27em;
+    border-radius: 2em;
+    top: 2em;
+    left:5em;
+}
+
+#bBottomWhiteBar{
+    position: absolute;
+    height: 10em;
+    width: 27em;
+    border-radius: 2em;
+    top: 9em;
+    left:5em;
+}
+
+#bTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 26em;
+    border-radius: 2em;
+    top: 2em;
+    left:4em;
+}
+
+#bBottomCounter{
+    position: absolute;
+    height: 8em;
+    width: 26em;
+    border-radius: 2em;
+    top: 10em;
+    left:4em;
+}
+
+/* C */
+
+#cCounter{
+    position: absolute;
+    height: 16em;
+    width: 32em;
+    border-radius: 2em;
+    top: 2em;
+    left: 2em; 
+}
+
+#cBlackBar{
+    position:absolute;
+    height: 20em;
+    width:3em;
+    top:0em;
+    left:30em;
+}
+
+#cTopCap{
+    position: absolute;
+    height:2em;
+    width:5em;
+    border-radius: 2em;
+    top:0em;
+    left:27em;
+}
+
+#cBottomCap{
+    position: absolute;
+    height:2em;
+    width:5em;
+    border-radius: 2em;
+    top:18em;
+    left:27em;
+}
+
+/* D */
+
+#dCounter{
+    position: absolute;
+    height: 16em;
+    width:26em;
+    border-radius: 2em;
+    top: 2em;
+    left: 4em; 
+}
+
+/* E */
+
+#eTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 32em;
+    border-radius: 2em;
+    top: 2em;
+    left:4em;
+}
+
+#eBottomCounter{
+    position: absolute;
+    height: 8em;
+    width: 32em;
+    border-radius: 2em;
+    top: 10em;
+    left:4em;
+}
+
+#eBlackBar{
+    position:absolute;
+    height: 20em;
+    width:5em;
+    top:0em;
+    left:28em;
+}
+
+#eTopCap{
+    position: absolute;
+    height:2em;
+    width:7em;
+    border-radius: 2em;
+    top:0em;
+    left:25em;
+}
+
+#eMiddleCap{
+    position: absolute;
+    height:2em;
+    width:5em;
+    border-radius: 2em;
+    top:8em;
+    left:25em;
+}
+
+#eBottomCap{
+    position: absolute;
+    height:2em;
+    width:7em;
+    border-radius: 2em;
+    top:18em;
+    left:25em;
+}
+
+/* F */
+
+#fTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 32em;
+    border-radius: 2em;
+    top: 2em;
+    left:4em;
+}
+
+#fBottomCounter{
+    position: absolute;
+    height: 11em;
+    width: 32em;
+    border-radius: 2em;
+    top: 10em;
+    left:4em;
+}
+
+#fBlackBar{
+    position:absolute;
+    height: 20em;
+    width:5em;
+    top:0em;
+    left:28em;
+}
+
+#fTopCap{
+    position: absolute;
+    height:2em;
+    width:7em;
+    border-radius: 2em;
+    top:0em;
+    left:25em;
+}
+
+#fMiddleCap{
+    position: absolute;
+    height:2em;
+    width:5em;
+    border-radius: 2em;
+    top:8em;    
+    left:25em;
+}
+
+#fBottomBlackBar{
+    position: absolute;
+    height:5em;
+    width:5em;
+    top:18em;
+    left:0em;
+}
+
+#fBottomCap{
+    position: absolute;
+    height:5em;
+    width:4em;
+    border-radius: 1em;
+    top:15em;
+    left:0em;
+}
+
+/* G */
+
+#gTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 32em;
+    border-radius: 2em;
+    top: 2em;
+    left:4em;
+}
+
+#gBottomCounter{
+    position: absolute;
+    height: 8em;
+    width: 26em;
+    border-radius: 2em;
+    top: 10em;
+    left:4em;
+}
+
+#gLeftCounter{
+    position: absolute;
+    border-radius: 2em;
+    height: 16em;
+    width: 10em;
+    top: 2em;
+    left:4em;
+}
+
+#gRightBlackBar{
+    position: absolute;
+    height: 12em;
+    width: 10em;
+    top: 0em;
+    left:28em;
+}
+
+#gBottomWhite{
+    position: absolute;
+    height: 8em;
+    width: 26em;
+    border-radius: 2em;
+    top: 8em;
+    left:6em;
+}
+
+#gTopCap{
+    position: absolute;
+    height:2em;
+    width: 22em;
+    border-radius: 2em;
+    top: 0em;
+    left:10em;
+}
+
+#gMiddleCap{
+    position: absolute;
+    height:2em;
+    width: 15em;
+    border-radius: 2em;
+    top: 8em;
+    left:10em;
+}
+
+/* H */
+
+#hTopCounter{
+    position: absolute;
+    height: 10em;
+    width: 28em;
+    border-radius: 2em;
+    top: -2em;
+    left:2em;
+}
+
+#hBottomCounter{
+    position: absolute;
+    height:12em;
+    width: 28em;
+    border-radius: 2em;
+    top: 10em;
+    left:2em;
+}
+
+#hRightBlackBar{
+    position: absolute;
+    height: 22em;
+    width: 2em;
+    top:-2em;
+    left: 30em;
+}
+
+#hLeftBlackBar{
+    position: absolute;
+    height: 22em;
+    width: 2em;
+    top:-2em;
+    left: 0em;
+}
+
+#hRightCap{
+    position: absolute;
+    height: 20em;
+    width: 2em;
+    border-radius: 2em;   
+    top:0em; 
+    left: 30em;
+}
+
+#hLeftCap{
+    position: absolute;
+    height: 20em;
+    width: 2em;
+    border-radius: 2em;    
+    top:0em;
+    left: 0em;
+}
+
+/* I */
+
+#iRightCounter{
+    position: absolute;
+    height:16em;
+    width: 16em;
+    border-radius: 2em;
+    top: 2em;
+    left:17em;
+}
+
+#iLeftCounter{
+    position: absolute;
+    height:16em;
+    width: 17em;
+    border-radius: 2em;
+    top: 2em;
+    left:-2em;
+}
+
+#iRightBlackBar{
+    position: absolute;
+    height: 24em;
+    width: 4em;
+    top:-2em;
+    left: 30em;
+}
+
+#iLeftBlackBar{
+    position: absolute;
+    height: 24em;
+    width: 4em;
+    top:-2em;
+    left: -2em;
+}
+
+#iTopCap{
+    position: absolute;
+    height:2em;
+    width: 32em;
+    border-radius: 2em;
+    top: 0em;
+    left:0em;
+}
+
+#iBottomCap{
+    position: absolute;
+    height:2em;
+    width:32em;
+    border-radius: 2em;
+    top: 18em;
+    left:0em;
+}
+
+/* J */ 
+
+#jLeftCounter{
+    position: absolute;
+    height:16em;
+    width: 17em;
+    border-radius: 2em;
+    top: 2em;
+    left:-2em;
+}
+
+#jRightCounter{
+    position: absolute;
+    height:20em;
+    width: 16em;
+    border-radius: 2em;
+    top: 2em;
+    left:17em;
+}
+
+#jRightBlackBar{
+    position: absolute;
+    height: 24em;
+    width: 4em;
+    top:-2em;
+    left: 30em;
+}
+
+#jMiddleBlackBar{
+    position: absolute;
+    height: 5em;
+    width: 4em;
+    top:17em;
+    left: 15em;
+}
+
+#jLeftBlackBar{
+    position: absolute;
+    height: 24em;
+    width: 4em;
+    top:-2em;
+    left: -2em;
+}
+
+#jTopCap{
+    position: absolute;
+    height:2em;
+    width: 32em;
+    border-radius: 2em;
+    top: 0em;
+    left:0em;
+}
+
+
+#jMiddleCap{
+    position: absolute;
+    height:20em;
+    width: 16em;
+    border-radius: 2em;
+    top: 0em;
+    left: 1em;
+}
+
+#jBottomCap{
+    position: absolute;
+    height:2em;
+    width:5em;
+    border-radius: 2em;
+    top: 18em;
+    left:0em;
+}
+
+/* K */
+
+#kRightBlackBar{
+    position: absolute;
+    height: 22em;
+    width: 3em;
+    top:-2em;
+    left: 30em;
+}
+
+#kLeftBlackBar{
+    position: absolute;
+    height: 22em;
+    width: 4em;
+    top:-2em;
+    left: 0em;
+}
+
+#kTopWhiteBar{
+    position: absolute;
+    height: 7em;
+    width: 27em;
+    border-radius: 2em;
+    top: 2em;
+    left:5em;
+}
+
+#kBottomWhiteBar{
+    position: absolute;
+    height: 10em;
+    width: 27em;
+    border-radius: 2em;
+    top: 9em;
+    left:5em;
+}
+
+#kTopCounter{
+    position: absolute;
+    height: 10em;
+    width: 26em;
+    border-radius: 2em;
+    top: -2em;
+    left:4em;
+}
+
+#kBottomCounter{
+    position: absolute;
+    height: 12em;
+    width: 26em;
+    border-radius: 2em;
+    top: 10em;
+    left:4em;
+}
+
+#kLeftCap{
+    position: absolute;
+    height: 20em;
+    width: 4em;
+    border-radius: 1em;    
+    top:0em;
+    left: 0em;
+}
+    
+#kRightTopCap{
     position: absolute;
     height: 5em;
     width: 2em;
-    border-radius: 2em;    
-    top:15em;
-    left: 0em;
-    }
+    border-radius: 2em;   
+    top:0em; 
+    left: 30em;
+}
 
-    #aRightCap{
+#kRightBottomCap{
     position: absolute;
     height: 5em;
     width: 2em;
@@ -84,1296 +626,758 @@ div{
     left: 30em;
 }
 
-/* B */
-
-    #bRightBlackBar{
-        position: absolute;
-        height: 10em;
-        width: 3em;
-        top:5em;
-        left: 30em;
-    }
-
-    #bTopWhiteBar{
-        position: absolute;
-        height: 7em;
-        width: 27em;
-        border-radius: 2em;
-        top: 2em;
-        left:5em;
-    }
-
-    #bBottomWhiteBar{
-        position: absolute;
-        height: 10em;
-        width: 27em;
-        border-radius: 2em;
-        top: 9em;
-        left:5em;
-    }
-
-    #bTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 26em;
-        border-radius: 2em;
-        top: 2em;
-        left:4em;
-    }
-
-    #bBottomCounter{
-        position: absolute;
-        height: 8em;
-        width: 26em;
-        border-radius: 2em;
-        top: 10em;
-        left:4em;
-}
-
-/* C */
-
-    #cCounter{
-        position: absolute;
-        height: 16em;
-        width: 32em;
-        border-radius: 2em;
-        top: 2em;
-        left: 2em; 
-    }
-
-    #cBlackBar{
-        position:absolute;
-        height: 20em;
-        width:3em;
-        top:0em;
-        left:30em;
-    }
-
-    #cTopCap{
-        position: absolute;
-        height:2em;
-        width:5em;
-        border-radius: 2em;
-        top:0em;
-        left:27em;
-    }
-
-    #cBottomCap{
-        position: absolute;
-        height:2em;
-        width:5em;
-        border-radius: 2em;
-        top:18em;
-        left:27em;
-}
-
-/* D */
-
-    #dCounter{
-        position: absolute;
-        height: 16em;
-        width:26em;
-        border-radius: 2em;
-        top: 2em;
-        left: 4em; 
-}
-
-/* E */
-
-    #eTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 32em;
-        border-radius: 2em;
-        top: 2em;
-        left:4em;
-    }
-
-    #eBottomCounter{
-        position: absolute;
-        height: 8em;
-        width: 32em;
-        border-radius: 2em;
-        top: 10em;
-        left:4em;
-    }
-
-    #eBlackBar{
-        position:absolute;
-        height: 20em;
-        width:5em;
-        top:0em;
-        left:28em;
-    }
-
-    #eTopCap{
-        position: absolute;
-        height:2em;
-        width:7em;
-        border-radius: 2em;
-        top:0em;
-        left:25em;
-    }
-
-    #eMiddleCap{
-        position: absolute;
-        height:2em;
-        width:5em;
-        border-radius: 2em;
-        top:8em;
-        left:25em;
-    }
-
-    #eBottomCap{
-        position: absolute;
-        height:2em;
-        width:7em;
-        border-radius: 2em;
-        top:18em;
-        left:25em;
-}
-
-/* F */
-
-    #fTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 32em;
-        border-radius: 2em;
-        top: 2em;
-        left:4em;
-    }
-
-    #fBottomCounter{
-        position: absolute;
-        height: 11em;
-        width: 32em;
-        border-radius: 2em;
-        top: 10em;
-        left:4em;
-    }
-
-    #fBlackBar{
-        position:absolute;
-        height: 20em;
-        width:5em;
-        top:0em;
-        left:28em;
-    }
-
-    #fTopCap{
-        position: absolute;
-        height:2em;
-        width:7em;
-        border-radius: 2em;
-        top:0em;
-        left:25em;
-    }
-
-    #fMiddleCap{
-        position: absolute;
-        height:2em;
-        width:5em;
-        border-radius: 2em;
-        top:8em;    
-        left:25em;
-    }
-
-    #fBottomBlackBar{
-        position: absolute;
-        height:5em;
-        width:5em;
-        top:18em;
-        left:0em;
-    }
-
-    #fBottomCap{
-        position: absolute;
-        height:5em;
-        width:4em;
-        border-radius: 1em;
-        top:15em;
-        left:0em;
-}
-
-/* G */
-
-    #gTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 32em;
-        border-radius: 2em;
-        top: 2em;
-        left:4em;
-    }
-
-    #gBottomCounter{
-        position: absolute;
-        height: 8em;
-        width: 26em;
-        border-radius: 2em;
-        top: 10em;
-        left:4em;
-    }
-
-    #gLeftCounter{
-        position: absolute;
-        border-radius: 2em;
-        height: 16em;
-        width: 10em;
-        top: 2em;
-        left:4em;
-    }
-
-    #gRightBlackBar{
-        position: absolute;
-        height: 12em;
-        width: 10em;
-        top: 0em;
-        left:28em;
-    }
-
-    #gBottomWhite{
-        position: absolute;
-        height: 8em;
-        width: 26em;
-        border-radius: 2em;
-        top: 8em;
-        left:6em;
-    }
-
-    #gTopCap{
-        position: absolute;
-        height:2em;
-        width: 22em;
-        border-radius: 2em;
-        top: 0em;
-        left:10em;
-    }
-
-    #gMiddleCap{
-        position: absolute;
-        height:2em;
-        width: 15em;
-        border-radius: 2em;
-        top: 8em;
-        left:10em;
-}
-
-/* H */
-
-    #hTopCounter{
-        position: absolute;
-        height: 10em;
-        width: 28em;
-        border-radius: 2em;
-        top: -2em;
-        left:2em;
-    }
-
-    #hBottomCounter{
-        position: absolute;
-        height:12em;
-        width: 28em;
-        border-radius: 2em;
-        top: 10em;
-        left:2em;
-    }
-
-    #hRightBlackBar{
-        position: absolute;
-        height: 22em;
-        width: 2em;
-        top:-2em;
-        left: 30em;
-    }
-
-    #hLeftBlackBar{
-        position: absolute;
-        height: 22em;
-        width: 2em;
-        top:-2em;
-        left: 0em;
-    }
-
-    #hRightCap{
-        position: absolute;
-        height: 20em;
-        width: 2em;
-        border-radius: 2em;   
-        top:0em; 
-        left: 30em;
-    }
-
-    #hLeftCap{
-        position: absolute;
-        height: 20em;
-        width: 2em;
-        border-radius: 2em;    
-        top:0em;
-        left: 0em;
-}
-
-/* I */
-
-    #iRightCounter{
-        position: absolute;
-        height:16em;
-        width: 16em;
-        border-radius: 2em;
-        top: 2em;
-        left:17em;
-    }
-
-    #iLeftCounter{
-        position: absolute;
-        height:16em;
-        width: 17em;
-        border-radius: 2em;
-        top: 2em;
-        left:-2em;
-    }
-
-    #iRightBlackBar{
-        position: absolute;
-        height: 24em;
-        width: 4em;
-        top:-2em;
-        left: 30em;
-    }
-
-    #iLeftBlackBar{
-        position: absolute;
-        height: 24em;
-        width: 4em;
-        top:-2em;
-        left: -2em;
-    }
-
-    #iTopCap{
-        position: absolute;
-        height:2em;
-        width: 32em;
-        border-radius: 2em;
-        top: 0em;
-        left:0em;
-    }
-
-    #iBottomCap{
-        position: absolute;
-        height:2em;
-        width:32em;
-        border-radius: 2em;
-        top: 18em;
-        left:0em;
-}
-
-/* J */ 
-
-    #jLeftCounter{
-        position: absolute;
-        height:16em;
-        width: 17em;
-        border-radius: 2em;
-        top: 2em;
-        left:-2em;
-    }
-
-    #jRightCounter{
-        position: absolute;
-        height:20em;
-        width: 16em;
-        border-radius: 2em;
-        top: 2em;
-        left:17em;
-    }
-
-    #jRightBlackBar{
-        position: absolute;
-        height: 24em;
-        width: 4em;
-        top:-2em;
-        left: 30em;
-    }
-
-    #jMiddleBlackBar{
-        position: absolute;
-        height: 5em;
-        width: 4em;
-        top:17em;
-        left: 15em;
-    }
-
-    #jLeftBlackBar{
-        position: absolute;
-        height: 24em;
-        width: 4em;
-        top:-2em;
-        left: -2em;
-    }
-
-    #jTopCap{
-        position: absolute;
-        height:2em;
-        width: 32em;
-        border-radius: 2em;
-        top: 0em;
-        left:0em;
-    }
-
-
-    #jMiddleCap{
-        position: absolute;
-        height:20em;
-        width: 16em;
-        border-radius: 2em;
-        top: 0em;
-        left: 1em;
-    }
-
-    #jBottomCap{
-        position: absolute;
-        height:2em;
-        width:5em;
-        border-radius: 2em;
-        top: 18em;
-        left:0em;
-}
-
-/* K */
-
-    #kRightBlackBar{
-        position: absolute;
-        height: 22em;
-        width: 3em;
-        top:-2em;
-        left: 30em;
-    }
-
-    #kLeftBlackBar{
-        position: absolute;
-        height: 22em;
-        width: 4em;
-        top:-2em;
-        left: 0em;
-    }
-
-    #kTopWhiteBar{
-        position: absolute;
-        height: 7em;
-        width: 27em;
-        border-radius: 2em;
-        top: 2em;
-        left:5em;
-    }
-
-    #kBottomWhiteBar{
-        position: absolute;
-        height: 10em;
-        width: 27em;
-        border-radius: 2em;
-        top: 9em;
-        left:5em;
-    }
-
-    #kTopCounter{
-        position: absolute;
-        height: 10em;
-        width: 26em;
-        border-radius: 2em;
-        top: -2em;
-        left:4em;
-    }
-
-    #kBottomCounter{
-        position: absolute;
-        height: 12em;
-        width: 26em;
-        border-radius: 2em;
-        top: 10em;
-        left:4em;
-    }
-
-    #kLeftCap{
-        position: absolute;
-        height: 20em;
-        width: 4em;
-        border-radius: 1em;    
-        top:0em;
-        left: 0em;
-    }
-        
-    #kRightTopCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:0em; 
-        left: 30em;
-    }
-
-    #kRightBottomCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:15em; 
-        left: 30em;
-}
-
 
 /* L */
 
-    #lCounter{
-        position: absolute;
-        height: 20em;
-        width: 31em;
-        border-radius: 2em;
-        top: -2em;
-        left:2em;
-    }
+#lCounter{
+    position: absolute;
+    height: 20em;
+    width: 31em;
+    border-radius: 2em;
+    top: -2em;
+    left:2em;
+}
 
-    #lTopBlackBar{
-        position: absolute;
-        height: 4em;
-        width: 4em;
-        top:0em;
-        left: 0em;
-    }
+#lTopBlackBar{
+    position: absolute;
+    height: 4em;
+    width: 4em;
+    top:0em;
+    left: 0em;
+}
 
-    #lRightBlackBar{
-        position: absolute;
-        height: 4em;
-        width: 3em;
-        top:17em;
-        left: 30em;
-    }
+#lRightBlackBar{
+    position: absolute;
+    height: 4em;
+    width: 3em;
+    top:17em;
+    left: 30em;
+}
 
-    #lTopCap{
-        position: absolute;
-        height:5em;
-        width: 2em;
-        border-radius: 2em;
-        top: 0em;
-        left:0em;
-    }
+#lTopCap{
+    position: absolute;
+    height:5em;
+    width: 2em;
+    border-radius: 2em;
+    top: 0em;
+    left:0em;
+}
 
-    #lRightCap{
-        position: absolute;
-        height:2em;
-        width: 5em;
-        border-radius: 2em;
-        top: 18em;
-        left:27em;
+#lRightCap{
+    position: absolute;
+    height:2em;
+    width: 5em;
+    border-radius: 2em;
+    top: 18em;
+    left:27em;
 }
 
 /* M */
 
-    #mTopBlackBar{
-        position: absolute;
-        height: 4em;
-        width: 4em;
-        top:-2em;
-        left: 14em;
-    }
+#mTopBlackBar{
+    position: absolute;
+    height: 4em;
+    width: 4em;
+    top:-2em;
+    left: 14em;
+}
 
-    #mRightWhite{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: 0em;
-        left:3em;
-    }
+#mRightWhite{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: 0em;
+    left:3em;
+}
 
-    #mLeftWhite{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: 0em;
-        left: 16em;
-    }
+#mLeftWhite{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: 0em;
+    left: 16em;
+}
 
-    #mRightCounter{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: 2em;
-        left:2em;
-    }
+#mRightCounter{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: 2em;
+    left:2em;
+}
 
-    #mLeftCounter{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: 2em;
-        left: 17em;
-    }
+#mLeftCounter{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: 2em;
+    left: 17em;
+}
 
-    #mBottomBlackBar{
-        position: absolute;
-        height: 2em;
-        width: 32em;
-        top:18em;
-        left: 0em;
-    }
+#mBottomBlackBar{
+    position: absolute;
+    height: 2em;
+    width: 32em;
+    top:18em;
+    left: 0em;
+}
 
-    #mLeftCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:15em; 
-        left: 0em;
-    }
+#mLeftCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top:15em; 
+    left: 0em;
+}
 
-    #mMiddleCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top: 15em; 
-        left: 15em;
-    }
+#mMiddleCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top: 15em; 
+    left: 15em;
+}
 
-    #mRightCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top: 15em; 
-        left: 30em;
+#mRightCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top: 15em; 
+    left: 30em;
 }
 
 /* N */
 
-    #nCounter{
-        position: absolute;
-        height: 20em;
-        width: 28em;
-        border-radius: 2em;
-        top: 2em;
-        left:2em;
-    }
+#nCounter{
+    position: absolute;
+    height: 20em;
+    width: 28em;
+    border-radius: 2em;
+    top: 2em;
+    left:2em;
+}
 
-    #nBottomBlackBar{
-        position: absolute;
-        height: 2em;
-        width: 32em;
-        top:18em;
-        left: 0em;
-    }
+#nBottomBlackBar{
+    position: absolute;
+    height: 2em;
+    width: 32em;
+    top:18em;
+    left: 0em;
+}
 
-    #nLeftCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:15em; 
-        left: 0em;
-    }
+#nLeftCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top:15em; 
+    left: 0em;
+}
 
-    #nRightCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top: 15em; 
-        left: 30em;
+#nRightCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top: 15em; 
+    left: 30em;
 }
 
 /* O */
 
-    #oCounter{
-        position: absolute;
-        height: 16em;
-        width:28em;
-        border-radius: 2em;
-        top: 2em;
-        left: 2em; 
+#oCounter{
+    position: absolute;
+    height: 16em;
+    width:28em;
+    border-radius: 2em;
+    top: 2em;
+    left: 2em; 
 }
 
 /* P */
 
-    #pTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 26em;
-        border-radius: 2em;
-        top: 2em;
-        left:4em;
-    }
+#pTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 26em;
+    border-radius: 2em;
+    top: 2em;
+    left:4em;
+}
 
-    #pBottomCounter{
-        position: absolute;
-        height: 11em;
-        width: 32em;
-        border-radius: 2em;
-        top: 10em;
-        left:4em;
-    }
+#pBottomCounter{
+    position: absolute;
+    height: 11em;
+    width: 32em;
+    border-radius: 2em;
+    top: 10em;
+    left:4em;
+}
 
-    #pRightBlackBar{
-        position: absolute;
-        height: 4em;
-        width: 2em;
-        top: 8em;
-        left: 30em;
-    }
+#pRightBlackBar{
+    position: absolute;
+    height: 4em;
+    width: 2em;
+    top: 8em;
+    left: 30em;
+}
 
-    #pTopWhite{
-        position: absolute;
-        height: 10em;
-        width: 32em;
-        border-radius: 2em;
-        top: 0em;
-        left:0em;
-    }
+#pTopWhite{
+    position: absolute;
+    height: 10em;
+    width: 32em;
+    border-radius: 2em;
+    top: 0em;
+    left:0em;
+}
 
-    #pLeftBlackBar{
-        position: absolute;
-        height: 2em;
-        width: 6em;
-        top:18em;
-        left:0em;
-    }
+#pLeftBlackBar{
+    position: absolute;
+    height: 2em;
+    width: 6em;
+    top:18em;
+    left:0em;
+}
 
-    #pLeftCap{
-        position: absolute;
-        height: 5em;
-        width: 4em;
-        border-radius: 1em;    
-        top:15em;
-        left: 0em;
-    }
+#pLeftCap{
+    position: absolute;
+    height: 5em;
+    width: 4em;
+    border-radius: 1em;    
+    top:15em;
+    left: 0em;
+}
 
 
-    #pRightCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:15em; 
-        left: 30em;
+#pRightCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top:15em; 
+    left: 30em;
 }
 
 /* Q */
 
-    #qCounter{
-        position: absolute;
-        height: 16em;
-        width:28em;
-        border-radius: 2em;
-        top: 2em;
-        left: 2em; 
-    }
+#qCounter{
+    position: absolute;
+    height: 16em;
+    width:28em;
+    border-radius: 2em;
+    top: 2em;
+    left: 2em; 
+}
 
-    #qTail {
-        position: absolute;
-        height: 2em;
-        width:8em;
-        border-radius: 2em;
-        top: 15em;
-        left: 24em; 
-        transform: rotate(31deg);
+#qTail {
+    position: absolute;
+    height: 2em;
+    width:8em;
+    border-radius: 2em;
+    top: 15em;
+    left: 24em; 
+    transform: rotate(31deg);
 }
 
 /* R */
 
-    #rRightBlackBar{
-        position: absolute;
-        height: 10em;
-        width: 3em;
-        top:5em;
-        left: 30em;
-    }
+#rRightBlackBar{
+    position: absolute;
+    height: 10em;
+    width: 3em;
+    top:5em;
+    left: 30em;
+}
 
-    #rTopWhiteBar{
-        position: absolute;
-        height: 7em;
-        width: 27em;
-        border-radius: 2em;
-        top: 2em;
-        left:5em;
-    }
+#rTopWhiteBar{
+    position: absolute;
+    height: 7em;
+    width: 27em;
+    border-radius: 2em;
+    top: 2em;
+    left:5em;
+}
 
-    #rBottomWhiteBar{
-        position: absolute;
-        height: 10em;
-        width: 27em;
-        border-radius: 2em;
-        top: 9em;
-        left:5em;
-    }
+#rBottomWhiteBar{
+    position: absolute;
+    height: 10em;
+    width: 27em;
+    border-radius: 2em;
+    top: 9em;
+    left:5em;
+}
 
-    #rTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 26em;
-        border-radius: 2em;
-        top: 2em;
-        left:4em;
-    }
+#rTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 26em;
+    border-radius: 2em;
+    top: 2em;
+    left:4em;
+}
 
-    #rBottomCounter{
-        position: absolute;
-        height: 12em;
-        width: 26em;
-        border-radius: 2em;
-        top: 10em;
-        left:4em;
-    }
+#rBottomCounter{
+    position: absolute;
+    height: 12em;
+    width: 26em;
+    border-radius: 2em;
+    top: 10em;
+    left:4em;
+}
 
-    #rBottomBlackBar{
-        position: absolute;
-        height: 4em;
-        width: 32em;
-        top: 18em;
-        left: 0em;
-    }
+#rBottomBlackBar{
+    position: absolute;
+    height: 4em;
+    width: 32em;
+    top: 18em;
+    left: 0em;
+}
 
-    #rLeftCap{
-        position: absolute;
-        height: 5em;
-        width: 4em;
-        border-radius: 1em;    
-        top: 15em;
-        left: 0em;
-    }
+#rLeftCap{
+    position: absolute;
+    height: 5em;
+    width: 4em;
+    border-radius: 1em;    
+    top: 15em;
+    left: 0em;
+}
 
 
-    #rBottomRightCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top: 15em; 
-        left: 30em;
+#rBottomRightCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top: 15em; 
+    left: 30em;
 }
 
 
 /* S */
 
-    #sTopCounter{
-        position: absolute;
-        height: 6em;
-        width: 32em;
-        border-radius: 2em;
-        top: 2em;
-        left:2em;
-    }
+#sTopCounter{
+    position: absolute;
+    height: 6em;
+    width: 32em;
+    border-radius: 2em;
+    top: 2em;
+    left:2em;
+}
 
-    #sBottomCounter{
-        position: absolute;
-        height: 8em;
-        width: 32em;
-        border-radius: 2em;
-        top: 10em;
-        left:-2em;
-    }
+#sBottomCounter{
+    position: absolute;
+    height: 8em;
+    width: 32em;
+    border-radius: 2em;
+    top: 10em;
+    left:-2em;
+}
 
-    #sTopWhite{
-        position: absolute;
-        height: 6em;
-        width: 15em;
-        border-radius: 2em;
-        top: 4em;
-        left:0em;
-    }
+#sTopWhite{
+    position: absolute;
+    height: 6em;
+    width: 15em;
+    border-radius: 2em;
+    top: 4em;
+    left:0em;
+}
 
-    #sBottomWhite{
-        position: absolute;
-        height: 8em;
-        width: 15em;
-        border-radius: 2em;
-        top: 8em;
-        left:17em;
-    }
+#sBottomWhite{
+    position: absolute;
+    height: 8em;
+    width: 15em;
+    border-radius: 2em;
+    top: 8em;
+    left:17em;
+}
 
-    #sRightBlackBar{
-        position: absolute;
-        height: 10em;
-        width: 50px;
-        top:0em;
-        left: 30em;
-    }
+#sRightBlackBar{
+    position: absolute;
+    height: 10em;
+    width: 50px;
+    top:0em;
+    left: 30em;
+}
 
-    #sLeftBlackBar{
-        position: absolute;
-        height:12em;
-        width: 3em;
-        top:7em;
-        left: 0em;
-    }
+#sLeftBlackBar{
+    position: absolute;
+    height:12em;
+    width: 3em;
+    top:7em;
+    left: 0em;
+}
 
-    #sTopCap{
-        position: absolute;
-        height: 2em; 
-        width: 5em;
-        border-radius: 2em;
-        top:0em;
-        left:27em;
-    }
+#sTopCap{
+    position: absolute;
+    height: 2em; 
+    width: 5em;
+    border-radius: 2em;
+    top:0em;
+    left:27em;
+}
 
-    #sBottomCap{
-        position: absolute;
-        height: 2em; 
-        width: 5em;
-        border-radius: 2em;
-        top:18em;
-        left:0em;
+#sBottomCap{
+    position: absolute;
+    height: 2em; 
+    width: 5em;
+    border-radius: 2em;
+    top:18em;
+    left:0em;
 }
 
 /* T */
 
-    #tLeftCounter{
-        position: absolute;
-        height:22em;
-        width: 17em;
-        border-radius: 2em;
-        top: 2em;
-        left:-2em;
-    }
+#tLeftCounter{
+    position: absolute;
+    height:22em;
+    width: 17em;
+    border-radius: 2em;
+    top: 2em;
+    left:-2em;
+}
 
-    #tRightCounter{
-        position: absolute;
-        height:20em;
-        width: 16em;
-        border-radius: 2em;
-        top: 2em;
-        left:17em;
-    }
+#tRightCounter{
+    position: absolute;
+    height:20em;
+    width: 16em;
+    border-radius: 2em;
+    top: 2em;
+    left:17em;
+}
 
-    #tRightBlackBar{
-        position: absolute;
-        height: 24em;
-        width: 4em;
-        top:-2em;
-        left: 30em;
-    }
+#tRightBlackBar{
+    position: absolute;
+    height: 24em;
+    width: 4em;
+    top:-2em;
+    left: 30em;
+}
 
-    #tMiddleBlackBar{
-        position: absolute;
-        height: 5em;
-        width: 6em;
-        top:17em;
-        left: 14em;
-    }
+#tMiddleBlackBar{
+    position: absolute;
+    height: 5em;
+    width: 6em;
+    top:17em;
+    left: 14em;
+}
 
-    #tLeftBlackBar{
-        position: absolute;
-        height: 24em;
-        width: 4em;
-        top:-2em;
-        left: -2em;
-    }
+#tLeftBlackBar{
+    position: absolute;
+    height: 24em;
+    width: 4em;
+    top:-2em;
+    left: -2em;
+}
 
-    #tTopCap{
-        position: absolute;
-        height:2em;
-        width: 32em;
-        border-radius: 2em;
-        top: 0em;
-        left:0em;
-    }
+#tTopCap{
+    position: absolute;
+    height:2em;
+    width: 32em;
+    border-radius: 2em;
+    top: 0em;
+    left:0em;
+}
 
 
-    #tMiddleCap{
-        position: absolute;
-        height:5em;
-        width: 2em;
-        border-radius: 2em;
-        top: 15em;
-        left:15em;
-    }
+#tMiddleCap{
+    position: absolute;
+    height:5em;
+    width: 2em;
+    border-radius: 2em;
+    top: 15em;
+    left:15em;
+}
 
-    #tRightCap{
-        position: absolute;
-        height:2em;
-        width:5em;
-        border-radius: 2em;
-        top: 0em;
-        left: 27em;
+#tRightCap{
+    position: absolute;
+    height:2em;
+    width:5em;
+    border-radius: 2em;
+    top: 0em;
+    left: 27em;
 }
 
 /* U */
 
-    #uCounter{
-        position: absolute;
-        height: 20em;
-        width: 28em;
-        border-radius: 2em;
-        top: -2em;
-        left:2em;
-    }
+#uCounter{
+    position: absolute;
+    height: 20em;
+    width: 28em;
+    border-radius: 2em;
+    top: -2em;
+    left:2em;
+}
 
-    #uBottomBlackBar{
-        position: absolute;
-        height: 2em;
-        width: 32em;
-        top:0em;
-        left: 0em;
-    }
+#uBottomBlackBar{
+    position: absolute;
+    height: 2em;
+    width: 32em;
+    top:0em;
+    left: 0em;
+}
 
-    #uLeftCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:0em; 
-        left: 0em;
-    }
+#uLeftCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top:0em; 
+    left: 0em;
+}
 
-    #uRightCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top: 0em; 
-        left: 30em;
+#uRightCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top: 0em; 
+    left: 30em;
 }
 
 /* V */
 
-    #vLeftBar{
-        position: absolute;
-        height: 26em;
-        width: 2em;
-        border-radius: 2em; 
-        top:-2.7em;
-        left: 7.45em;
-        transform: rotate(-39deg);
-    }
+#vLeftBar{
+    position: absolute;
+    height: 26em;
+    width: 2em;
+    border-radius: 2em; 
+    top:-2.7em;
+    left: 7.45em;
+    transform: rotate(-39deg);
+}
 
-    #vRightBar{
-        position: absolute;
-        height: 26em;
-        width: 2em;
-        border-radius: 2em; 
-        top:-2.7em;
-        left: 22.55em;
-        transform: rotate(39deg);
+#vRightBar{
+    position: absolute;
+    height: 26em;
+    width: 2em;
+    border-radius: 2em; 
+    top:-2.7em;
+    left: 22.55em;
+    transform: rotate(39deg);
 }
 
 /* W */
 
-    #wRightWhite{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: 0em;
-        left:3em;
-    }
+#wRightWhite{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: 0em;
+    left:3em;
+}
 
-    #wLeftWhite{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: 0em;
-        left: 16em;
-    }
+#wLeftWhite{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: 0em;
+    left: 16em;
+}
 
-    #wRightCounter{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: -2em;
-        left:2em;
-    }
+#wRightCounter{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: -2em;
+    left:2em;
+}
 
-    #wLeftCounter{
-        position: absolute;
-        height: 20em;
-        width: 13em;
-        border-radius: 2em;
-        top: -2em;
-        left: 17em;
-    }
+#wLeftCounter{
+    position: absolute;
+    height: 20em;
+    width: 13em;
+    border-radius: 2em;
+    top: -2em;
+    left: 17em;
+}
 
-    #wTopBlackBar{
-        position: absolute;
-        height: 4em;
-        width: 32em;
-        top:-2em;
-        left: 0em;
-    }
+#wTopBlackBar{
+    position: absolute;
+    height: 4em;
+    width: 32em;
+    top:-2em;
+    left: 0em;
+}
 
-    #wBottomBlackBar{
-        position: absolute;
-        height: 4em;
-        width: 4em;
-        top:18em;
-        left: 14em;
-    }
+#wBottomBlackBar{
+    position: absolute;
+    height: 4em;
+    width: 4em;
+    top:18em;
+    left: 14em;
+}
 
-    #wLeftCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:0em; 
-        left: 0em;
-    }
+#wLeftCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top:0em; 
+    left: 0em;
+}
 
-    #wMiddleCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top: 0em; 
-        left: 15em;
-    }
+#wMiddleCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top: 0em; 
+    left: 15em;
+}
 
-    #wRightCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top: 0em; 
-        left: 30em;
+#wRightCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top: 0em; 
+    left: 30em;
 }
 
 /* X */
 
-    #xLeftBar{
-        position: absolute;
-        height: 37em;
-        width: 2em;
-        border-radius: 2em; 
-        top:-8.5em;
-        left: 15em;
-        transform: rotate(-60deg);
-    }
+#xLeftBar{
+    position: absolute;
+    height: 37em;
+    width: 2em;
+    border-radius: 2em; 
+    top:-8.5em;
+    left: 15em;
+    transform: rotate(-60deg);
+}
 
-    #xRightBar{
-        position: absolute;
-        height: 37em;
-        width: 2em;
-        border-radius: 2em; 
-        top:-8.5em;
-        left: 15em;
-        transform: rotate(60deg);
+#xRightBar{
+    position: absolute;
+    height: 37em;
+    width: 2em;
+    border-radius: 2em; 
+    top:-8.5em;
+    left: 15em;
+    transform: rotate(60deg);
 }
 
 /* Y */
 
-    #yRightBlackBar{
-        position: absolute;
-        height: 15em;
-        width: 3em;
-        top:-2em;
-        left: 30em;
-    }
+#yRightBlackBar{
+    position: absolute;
+    height: 15em;
+    width: 3em;
+    top:-2em;
+    left: 30em;
+}
 
-    #yMiddleBlackBar{
-        position: absolute;
-        height: 5em;
-        width: 4em;
-        top: 16em;
-        left: 14em;
-    }
+#yMiddleBlackBar{
+    position: absolute;
+    height: 5em;
+    width: 4em;
+    top: 16em;
+    left: 14em;
+}
 
-    #yLeftBlackBar{
-        position: absolute;
-        height: 15em;
-        width: 2em;
-        top:-2em;
-        left: 0em;
-    }
+#yLeftBlackBar{
+    position: absolute;
+    height: 15em;
+    width: 2em;
+    top:-2em;
+    left: 0em;
+}
 
-    #yMiddleWhiteBar{
-        position: absolute;
-        height: 8em;
-        width: 32em;
-        border-radius: 2em;
-        top: 2em;
-        left:0em;
-    }
+#yMiddleWhiteBar{
+    position: absolute;
+    height: 8em;
+    width: 32em;
+    border-radius: 2em;
+    top: 2em;
+    left:0em;
+}
 
-    #yTopCounter{
-        position: absolute;
-        height: 10em;
-        width: 28em;
-        border-radius: 2em;
-        top: -2em;
-        left:2em;
-    }
+#yTopCounter{
+    position: absolute;
+    height: 10em;
+    width: 28em;
+    border-radius: 2em;
+    top: -2em;
+    left:2em;
+}
 
-    #yLeftBottomCounter{
-        position: absolute;
-        height: 12em;
-        width: 17em;
-        border-radius: 2em;
-        top: 10em;
-        left: -2em;
-    }
+#yLeftBottomCounter{
+    position: absolute;
+    height: 12em;
+    width: 17em;
+    border-radius: 2em;
+    top: 10em;
+    left: -2em;
+}
 
-    #yRightBottomCounter{
-        position: absolute;
-        height: 12em;
-        width: 17em;
-        border-radius: 2em;
-        top: 10em;
-        left: 17em;
-    }
+#yRightBottomCounter{
+    position: absolute;
+    height: 12em;
+    width: 17em;
+    border-radius: 2em;
+    top: 10em;
+    left: 17em;
+}
 
-    #yLeftCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;    
-        top:0em;
-        left: 0em;
-    }
+#yLeftCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;    
+    top:0em;
+    left: 0em;
+}
 
-    #yMiddleCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;    
-        top: 15em;
-        left: 15em;
-    }
-        
-    #yRightCap{
-        position: absolute;
-        height: 5em;
-        width: 2em;
-        border-radius: 2em;   
-        top:0em; 
-        left: 30em;
+#yMiddleCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;    
+    top: 15em;
+    left: 15em;
+}
+    
+#yRightCap{
+    position: absolute;
+    height: 5em;
+    width: 2em;
+    border-radius: 2em;   
+    top:0em; 
+    left: 30em;
 }
 
 /* Z */
 
-    #zBar{
-        position: absolute;
-        height: 37em;
-        width: 2em;
-        border-radius: 2em; 
-        top:-8.5em;
-        left: 15em;
-        transform: rotate(60deg);
-    }
-
-    #zTopBar{
-        position: absolute;
-        height: 2em;
-        width: 32em;
-        border-radius: 2em;
-    }
-
-    #zBottomBar{
-        position: absolute;
-        height: 2em;
-        width: 32em;
-        border-radius: 2em;
-        top: 18em; 
+#zBar{
+    position: absolute;
+    height: 37em;
+    width: 2em;
+    border-radius: 2em; 
+    top:-8.5em;
+    left: 15em;
+    transform: rotate(60deg);
 }
 
+#zTopBar{
+    position: absolute;
+    height: 2em;
+    width: 32em;
+    border-radius: 2em;
+}
+
+#zBottomBar{
+    position: absolute;
+    height: 2em;
+    width: 32em;
+    border-radius: 2em;
+    top: 18em; 
+}
